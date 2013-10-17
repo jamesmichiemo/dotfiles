@@ -3,11 +3,8 @@
 "
 " This script is a mess of various vim configuration settings from multiple
 " sources.(Mostly thoughtbot) It still needs a lot of work to get it
-" working right.
+" working the way I'd like.
 "
-" For whatever reason, this script causes syntax highlighting to crash html
-" files, so I leave syntax highlighting off by default and I turn it on as
-" needed with :syntax on   
 
 set nocompatible
 
@@ -38,7 +35,7 @@ call pathogen#incubate()
  autocmd FileType ruby compiler ruby
 
 set nocompatible      " We're running Vim, not Vi!
-syntax off             " Enable syntax highlighting
+syntax on             " Enable syntax highlighting
 filetype on           " Enable filetype detection
 filetype indent on    " Enable filetype-specific indenting
 filetype plugin on    " Enable filetype-specific plugins
