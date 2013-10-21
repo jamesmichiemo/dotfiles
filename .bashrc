@@ -7,6 +7,12 @@
 # --Aliases--
 ## --------
 
+# git
+alias ga="git add"
+alias gc="git commit -m"
+alias gac="git commit -a -m"
+alias gs="git status"
+
 # prompt before execution
 alias rm="rm -i"
 alias mv="mv -i"
