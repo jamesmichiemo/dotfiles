@@ -186,3 +186,6 @@ endif
 
 filetype plugin on
 set omnifunc=syntaxcomplete#Complete
+
+" syntax highlighting for ChucK
+au BufNewFile,BufRead *.ck setf ck
