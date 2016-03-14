@@ -20,6 +20,14 @@ Plugin 'vim-ruby/vim-ruby'
 Plugin 'kana/vim-textobj-user'
 Plugin 'nelstrom/vim-textobj-rubyblock'
 Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'tpope/vim-sexp-mappings-for-regular-people'
+Plugin 'guns/vim-sexp'
+Plugin 'tpope/vim-repeat'
+Plugin 'guns/vim-clojure-static'
+Plugin 'tpope/vim-fireplace'
+Plugin 'tpope/vim-projectionist'
+Plugin 'tpope/vim-dispatch'
+Plugin 'kien/rainbow_parentheses.vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
