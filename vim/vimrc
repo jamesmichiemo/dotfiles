@@ -20,6 +20,7 @@ Plugin 'vim-ruby/vim-ruby'
 Plugin 'kana/vim-textobj-user'
 Plugin 'nelstrom/vim-textobj-rubyblock'
 Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'kchmck/vim-coffee-script'
 Plugin 'tpope/vim-sexp-mappings-for-regular-people'
 Plugin 'guns/vim-sexp'
 Plugin 'tpope/vim-repeat'
@@ -65,3 +66,5 @@ if &t_Co > 2 || has("gui_running")
   " Enable syntax highlighting
   syntax on
 endif
+
+
