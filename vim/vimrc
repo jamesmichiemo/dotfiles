@@ -70,3 +70,12 @@ endif
 " Show line numbers
 set relativenumber
 
+" Use incremental search
+set incsearch
+
+" Highlight all pattern matches
+set hlsearch
+nmap <leader>h :nohlsearch<cr>
+
+set ignorecase
+set smartcase
