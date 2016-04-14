@@ -82,7 +82,9 @@ set smartcase
 
 " splits
 set winwidth=84
-set winheight=10
-set winminheight=10
+set winheight=5
+set winminheight=5
 set winheight=999
 
+" convert tabs to spaces
+set tabstop=2 shiftwidth=2 expandtab
