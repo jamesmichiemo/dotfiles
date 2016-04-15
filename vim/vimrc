@@ -63,6 +63,7 @@ if has("autocmd")
     \   exe "normal! g`\"" |
     \ endif
 endif
+
 if &t_Co > 2 || has("gui_running")
   " Enable syntax highlighting
   syntax on
@@ -89,3 +90,5 @@ set winheight=999
 
 " convert tabs to spaces
 set tabstop=2 shiftwidth=2 expandtab
+
+set cursorline cursorcolumn
